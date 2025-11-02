@@ -1,0 +1,66 @@
+{
+  "sitecore": {
+    "route": {
+      "placeholders": {
+        "jss-main": [
+          {
+            "componentName": "NewsList",
+            "fields": {
+              "heading": { "value": "Qatar News & Events from SiteCore" },
+              "items": {
+                "value": [
+                  {
+                    "id": "news-001",
+                    "template": "Article",
+                    "fields": {
+                      "type": { "value": "news" },
+                      "title": { "value": "Digital Government Services: New Online Portals Announced" },
+                      "date": { "value": "2025-10-15T09:00:00Z" },
+                      "summary": { "value": "Authorities highlight streamlined access to public services, applications, and case tracking." },
+                      "link": { "value": { "href": "#", "text": "Read more" } }
+                    }
+                  },
+                  {
+                    "id": "event-001",
+                    "template": "Event",
+                    "fields": {
+                      "type": { "value": "event" },
+                      "title": { "value": "Doha Tech Meetup: AI in Public Services" },
+                      "date": { "value": "2025-11-05T17:30:00Z" },
+                      "summary": { "value": "Local practitioners discuss practical AI adoption in citizen services and process automation." },
+                      "link": { "value": { "href": "#", "text": "Event details" } },
+                      "location": { "value": "Msheireb Downtown Doha" }
+                    }
+                  },
+                  {
+                    "id": "news-002",
+                    "template": "Article",
+                    "fields": {
+                      "type": { "value": "news" },
+                      "title": { "value": "Public Service App Updates Rolled Out" },
+                      "date": { "value": "2025-10-22T10:00:00Z" },
+                      "summary": { "value": "Performance and accessibility improvements for application status tracking." },
+                      "link": { "value": { "href": "#", "text": "Read more" } }
+                    }
+                  },
+                  {
+                    "id": "event-002",
+                    "template": "Event",
+                    "fields": {
+                      "type": { "value": "event" },
+                      "title": { "value": "Civic Innovation Day" },
+                      "date": { "value": "2025-12-02T09:30:00Z" },
+                      "summary": { "value": "Hands-on demos of new portals and workflows for residents and businesses." },
+                      "link": { "value": { "href": "#", "text": "Register" } },
+                      "location": { "value": "Qatar National Convention Centre" }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

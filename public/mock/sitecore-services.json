@@ -1,0 +1,56 @@
+{
+  "sitecore": {
+    "route": {
+      "placeholders": {
+        "jss-main": [
+          {
+            "componentName": "ServicesList",
+            "fields": {
+              "heading": { "value": "Explore Services" },
+              "categories": {
+                "value": [
+                  {
+                    "id": "cat1",
+                    "name": "Health & Well-being",
+                    "services": [
+                      {
+                        "id": "svc-001",
+                        "title": "Renew Health Card",
+                        "description": "Apply to renew your health card online.",
+                        "link": { "href": "#", "text": "Apply Now" }
+                      },
+                      {
+                        "id": "svc-002",
+                        "title": "Request Health Card Information",
+                        "description": "Find out your health card details easily.",
+                        "link": { "href": "#", "text": "Apply Now" }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "cat2",
+                    "name": "Business & Investment",
+                    "services": [
+                      {
+                        "id": "svc-101",
+                        "title": "Register Business Licence",
+                        "description": "Start your business registration process.",
+                        "link": { "href": "#", "text": "Apply Now" }
+                      },
+                      {
+                        "id": "svc-102",
+                        "title": "Apply for Import/Export Permit",
+                        "description": "Submit your permit application online.",
+                        "link": { "href": "#", "text": "Apply Now" }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
